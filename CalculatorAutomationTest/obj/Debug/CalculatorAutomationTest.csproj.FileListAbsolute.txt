@@ -4,3 +4,4 @@ C:\Users\wizar\source\repos\CalculatorAutomationTest\CalculatorAutomationTest\ob
 C:\Users\wizar\source\repos\CalculatorAutomationTest\CalculatorAutomationTest\obj\Debug\CalculatorAutomationTest.csproj.CoreCompileInputs.cache
 C:\Users\wizar\source\repos\CalculatorAutomationTest\CalculatorAutomationTest\obj\Debug\CalculatorAutomationTest.dll
 C:\Users\wizar\source\repos\CalculatorAutomationTest\CalculatorAutomationTest\obj\Debug\CalculatorAutomationTest.pdb
+C:\Users\wizar\source\repos\CalculatorAutomationTest\CalculatorAutomationTest\bin\Debug\CalculatorAutomationTest.dll.config

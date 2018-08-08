@@ -9,6 +9,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UITest.Extension;
 using Keyboard = Microsoft.VisualStudio.TestTools.UITesting.Keyboard;
 using CalculatorAutomationTest.Pages;
+using System.Configuration;
+using CalculatorAutomationTest.Base;
 
 namespace CalculatorAutomationTest.Test
 {
@@ -16,7 +18,7 @@ namespace CalculatorAutomationTest.Test
     /// Summary description for CodedUITest2
     /// </summary>
     [CodedUITest]
-    public class UnitConversion_Test
+    public class UnitConversion_Test : BasePage
     {
         public UnitConversion_Test()
         {
@@ -24,7 +26,7 @@ namespace CalculatorAutomationTest.Test
         [TestInitialize]
         public void LaunchApplication()
         {
-            ApplicationUnderTest.Launch(@"C:\Windows\System32\calc1.exe");
+            ApplicationUnderTest.Launch(AUT);
         }
 
         [TestMethod]

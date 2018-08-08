@@ -10,6 +10,7 @@ using Microsoft.VisualStudio.TestTools.UITest.Extension;
 using Keyboard = Microsoft.VisualStudio.TestTools.UITesting.Keyboard;
 using CalculatorAutomationTest.Pages;
 using System.Diagnostics;
+using CalculatorAutomationTest.Base;
 
 namespace CalculatorAutomationTest.Test
 {
@@ -17,7 +18,7 @@ namespace CalculatorAutomationTest.Test
     /// Summary description for DateConversion_Test
     /// </summary>
     [CodedUITest]
-    public class DateConversion_Test
+    public class DateConversion_Test : BasePage
     {
         public DateConversion_Test()
         {
@@ -25,7 +26,7 @@ namespace CalculatorAutomationTest.Test
         [TestInitialize]
         public void LaunchApplication()
         {
-            ApplicationUnderTest.Launch(@"C:\Windows\System32\calc1.exe");
+            ApplicationUnderTest.Launch(AUT);
         }
 
         [TestMethod]

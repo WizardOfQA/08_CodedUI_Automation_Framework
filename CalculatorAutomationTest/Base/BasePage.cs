@@ -4,6 +4,7 @@ using Microsoft.VisualStudio.TestTools.UITesting.WinControls;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,7 @@ namespace CalculatorAutomationTest.Base
     public class BasePage
     {     
         private static WinWindow _parentWindow;
+        public static string AUT = ConfigurationManager.AppSettings.Get("AUT");
 
         public BasePage()
         {
