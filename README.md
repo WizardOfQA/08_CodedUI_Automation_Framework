@@ -13,3 +13,7 @@ Coded UI Test(CUIT) is a Microsoft's GUI testing tool which can test windows for
 
 * Can_Calculate_Date_Differences
 * Length_Conversion_Km_Mile
+
+![calculatordemo](https://user-images.githubusercontent.com/25840262/43815170-454735e0-9a83-11e8-92c3-24d787368792.PNG)
+
+![calculator](https://user-images.githubusercontent.com/25840262/43815164-421c4928-9a83-11e8-9d9a-b8a1185d1617.PNG)
