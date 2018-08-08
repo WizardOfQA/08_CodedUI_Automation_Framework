@@ -1,6 +1,6 @@
 # CodedUI_Automation_Framework with Page Object Model
 ## Description:
-Coded UI Test(CUIT) is a Microsoft's GUI testing tool which can test windows form, WPF, and Web applications.
+Coded UI Test(CUIT) is a Microsoft's GUI automation testing tool which can test windows form, WPF, and Web applications.
 </br>In this project, I tested a couple of scenarios for the AUT(calculator)
 </br>I also made this automation framework with Page Object Model which is not many people uses for testing the desktop application.
 
